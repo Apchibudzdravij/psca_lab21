@@ -15,7 +15,7 @@ const hbs = require('express-handlebars').create({
     layoutsDir: "/views",
     helpers: {
         canbutton: () => {
-            return `<input class="boton1"  value="Отказаться" onclick="window.location = '/'"></input>`;
+            return `<input class="boton1" type="button" value="Отказаться" onclick="window.location = '/'"></input>`;
         }
     }
 });
