@@ -26,7 +26,7 @@ app.set('port', 3000);
 
 app.set('/views', express.static(path.join(__dirname, '/views')));
 const corsOptions = {
-    origin: 'https://nodejs-3etv.onrender.com',
+    origin: 'https://pscalab21dyv.onrender.com',
     method: "GET,HEAD,PUT,POST, PATCH,DELETE"
 };
 app.use(cors(corsOptions));
