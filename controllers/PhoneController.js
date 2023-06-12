@@ -26,7 +26,7 @@ module.exports = {
     },
 
     returnViewUpdate: async (req, res) => {
-        fs.readFile("./phonebook.json", (e, data) => {
+        fs.readFile("./phoneBook.json", (e, data) => {
             if (e) console.log(e);
             else {
                 let os = JSON.parse(data);
